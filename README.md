@@ -1,41 +1,60 @@
-# Getting Started with Create React App
+# GitHub OAuth Login and Trending Repos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that allows users to log in using GitHub OAuth, fetch trending repositories, and view detailed information about specific repositories. It utilizes GitHub's open-source search REST APIs to fetch data.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. User authentication using GitHub OAuth login.
+2. Fetching and displaying trending repositories.
+3. Filtering repositories by date range, language, etc.
+4. Detailed repository view with information like repository name, author, languages, stars, forks, etc.
+5. Protected routing system with 404 route handling.
+6. State management using Redux Toolkit.
+7. Support for light and dark themes.
+8. Responsive design for mobile and desktop devices.
 
+## Screenshots
+
+1. Login Page:
+
+![image](https://github.com/muhammedsajadtk/demo/assets/78018850/d521ab33-51a7-44f3-8306-042d788b182e)
+
+2. Trending Repositories Page:
+
+![image](https://github.com/muhammedsajadtk/demo/assets/78018850/2afad4d3-be1d-4f64-bfc9-e853121257dc)
+
+3. Repository Details Page:
+   
+![image](https://github.com/muhammedsajadtk/demo/assets/78018850/87afadb6-2087-4b17-9f42-3c562be8d951)
+
+
+
+
+## Prerequisites
+
+Before running the application, ensure that you have the following:
+
+1. Node.js installed on your machine.
+2. A GitHub account
+
+
+## Getting Started
+
+To set up and run the project locally, follow these steps:
+
+### Clone the repository:
+### `git clone https://github.com/muhammedsajadtk/github-task.git`
+
+### Navigate to the project directory:
+### `cd github-task`
+
+### Install the dependencies:
+### `npm install`
+
+### Start the development server:
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
