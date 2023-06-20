@@ -1,0 +1,19 @@
+.hover-underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .header-div {
+    background-color: #161b22;
+    border-color: #30363d;
+    border-bottom: 1px solid #30363d;
+  }
+
+  .body-div-dark {
+    background-color: #0D1117
+  }
+
+  .body-div-light {
+    background-color: #f7f7f7
+
+  }

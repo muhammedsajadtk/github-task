@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img {
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+*::-moz-selection {
+}
+*::selection {
+}
+*::-webkit-scrollbar {
+    width: 0;
+}
+*::-webkit-scrollbar-thumb:hover {
+    background: #b7b7b7;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-size: 1.0625rem;
+    color: #333;
+    background: #f9fbfd;
+    overflow-x: hidden;
+    min-width: 20rem;
+    position: relative;
+}
+input,
+textarea,
+select,
+pre {
+    background: unset;
+    border: unset;
+}
+textarea,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+*:focus {
+    outline: none;
+}
+a {
+    color: #333;
+}
+.submit:hover {
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+.thumb {
+    display: block;
+    width: 100%;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    font-size: 1rem;
+    color: #fff;
+}
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header-dark {
+    background-color: #0D1117;
+    padding: 10px;
+}
+.header-light {
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+/* common */
+.svg-icon {
+    height: 16px;
+    width: 16px;
+    margin-top: 2px;
+}
